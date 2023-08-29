@@ -4,9 +4,9 @@ import { Home, CreatePost } from './pages'
 
 const App = () => {
   return (
-    <h1 className='text-3x1 font bold underline'>
-      Hello World
-    </h1>
+    <BrowserRouter>
+      <header className='w-full flex justify-between items-center bg-white sm:px-8 px-4 py-4 border-b border-b-[#e6ebf4'></header>
+    </BrowserRouter>
   )
 }
 
